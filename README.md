@@ -61,11 +61,11 @@ Sigue los pasos del `Anexo 2` para cargar tus datos en HDFS.
         ```
     * Descarga el dataset (usamos `-O` para renombrarlo a `familias.csv`):
         ```bash
-        wget [https://www.datos.gov.co/resource/xfif-myr2.csv](https://www.datos.gov.co/resource/xfif-myr2.csv) -O familias.csv [cite: 766]
+        wget [https://www.datos.gov.co/resource/xfif-myr2.csv](https://www.datos.gov.co/resource/xfif-myr2.csv) -O familias.csv \
         ```
     * Sube el archivo a HDFS:
         ```bash
-        hdfs dfs -put /home/hadoop/familias.csv /Tarea_Familias [cite: 828, 853]
+        hdfs dfs -put /home/hadoop/familias.csv /Tarea_Familias
         ```
     * Verifica que el archivo esté en HDFS:
         ```bash
